@@ -1,0 +1,5 @@
+# Libraries to run the pipeline (datamate/): exactly the versions used during development and measurement; other versions may change SQL results or how files are read.
+# Run on Python 3.11. The LLM is not installed here: the pipeline calls a vLLM server over HTTP (DATAMATE_LLM_URL), see docker/.
+duckdb==1.5.6
+pandas==2.3.3
+python-calamine==0.8.3

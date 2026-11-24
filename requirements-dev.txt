@@ -1,0 +1,5 @@
+# Added to run the tests: pip install -r requirements-dev.txt && pytest tests
+# (pytest-xdist is only for running in parallel: pytest tests -n 4)
+-r requirements.txt
+pytest>=9.2
+pytest-xdist>=3.8

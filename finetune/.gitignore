@@ -1,0 +1,3 @@
+# Data and adapters produced when reproducing: not committed to git
+*.jsonl
+adapter_*/
